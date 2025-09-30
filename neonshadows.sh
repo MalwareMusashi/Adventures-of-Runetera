@@ -592,7 +592,7 @@ ending_rogue() {
 
 game_over() {
     echo ""
-    print_yellow "Thanks for playing, ${player_name} the ${player_class}!"
+    print_yellow "Thanks for playing! ${player_name} the ${player_class}! Better luck next time!"
     echo ""
     read -p "Play again? (y/n): " replay
     
